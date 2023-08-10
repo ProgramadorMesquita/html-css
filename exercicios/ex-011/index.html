@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes. Ou simplismente altere o tamanho da janela do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a colocar aúdios no site usando html</p>
+    <audio preload="metadata" controls>
+        <source src="media/[ULTRAKILL OST] Versus.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não é compativel com o formato de aúdio. <a href="media/[ULTRAKILL OST] Versus.mp3">clicke aqui para baixar o arquivo MP3 </a></p>
+    </audio>
+
+    <audio preload="metadata" controls>
+        <source src="media/Mega Man Battle Network 6 OST - T17 Surge of Power (Boss Theme).mp3" type="audio/mpeg">
+    </audio>
+
+    <audio preload="metadata" controls>
+        <source src="media/大貫妙子 (Taeko Onuki)  都会 (Official Audio).mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
