@@ -11,20 +11,28 @@
 
         table{
             width: 300px;
+            height: 300px;
             border-collapse: collapse;
         }
 
         td{
             border: 1px solid black;
             padding: 2px;
+            text-align: center;
+            vertical-align: middle;
         }
+
+        .numero{
+            text-align: right;
+        }
+
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
         <tr>
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
@@ -37,7 +45,7 @@
 
         <tr>
             <td>A3</td>
-            <td>B3</td>
+            <td class="numero">B3</td>
             <td>C3</td>
         </tr>
 
@@ -45,6 +53,10 @@
             <td>A4</td>
             <td>B4</td>
             <td>C4</td>
+        </tr>
+
+        <tr>
+            <td class="numero">100</td>
         </tr>
     </table>
 </body>
