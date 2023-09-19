@@ -8,14 +8,24 @@ h1, a{
 
 table{
     text-align: center;
-    width: 400px;
+    width: 500px;
     border: 1px solid black;
     margin: auto;
     position: relative;
+    border-collapse: collapse;
 }
 
-td{
+thead{
+    background-color: gray;
+}
+
+td, th{
+
     border: 1px solid black;
     padding: 10px;
     vertical-align: middle;
+}
+
+.linhademedia{
+    background-color: gray;
 }
