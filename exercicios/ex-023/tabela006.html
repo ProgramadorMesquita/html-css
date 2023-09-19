@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#container{
+            overflow-y: auto;
+        }
+
+        table{
+            width: 150vw;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th, td, caption{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        caption{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas responsivas</h1>
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+            <caption>cadastro</caption>
+            <tr>
+                <th scope="col">nome</th>
+                <th scope="col">sexo</th>
+                <th scope="col">idade</th>
+                <th scope="col">profissão</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>f</td>
+                <td>25</td>
+                <td>jornalista</td>
+            </tr>
+            <tr>
+                <td>steve</td>
+                <td>m</td>
+                <td>35</td>
+                <td>pedreiro</td>
+            </tr>
+            <tr>
+                <td>carlos</td>
+                <td>m</td>
+                <td>14</td>
+                <td>estudante</td>
+            </tr>
+            <tr>
+                <td>márcia</td>
+                <td>f</td>
+                <td>21</td>
+                <td>enfermeira</td>
+            </tr>
+            <tr>
+                <td>jordana</td>
+                <td>f</td>
+                <td>62</td>
+                <td>aposentada</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
