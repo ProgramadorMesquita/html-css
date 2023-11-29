@@ -20,3 +20,7 @@ menu{
 article::after{
     content: 'Esse artifo foi impresso através do site www.cursoemvideo.com';   
 }
+
+article{
+    width: 100%;
+}
